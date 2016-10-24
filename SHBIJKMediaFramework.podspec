@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://jiutianhuanpei.github.io/"
 
   s.license      = "MIT"
-  s.author             = { "shenhongbang" => "shenhongbang@163.com" }
+  s.author       = { "shenhongbang" => "shenhongbang@163.com" }
 
   s.platform     = :ios, "8.0"
 
