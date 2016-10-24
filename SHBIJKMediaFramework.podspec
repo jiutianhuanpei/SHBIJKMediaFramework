@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "对 IJKMediaFramework 的简单管理。"
 
   s.description  = <<-DESC
-    对 IJKMediaFramework 的简单管理。
+    对 IJKMediaFramework 的简单整理，上传到cocoapods
                    DESC
 
   s.homepage     = "https://jiutianhuanpei.github.io/"
