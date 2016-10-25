@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/jiutianhuanpei/SHBIJKMediaFramework.git", :tag => "0.0.2" }
 
-  s.vendored_frameworks  = "IJKMediaFramework.framework"
+  s.vendored_frameworks  = "IJKMediaFramework"
 
   s.frameworks = "libz", "libbz2", "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MediaPlayer", "MobileCoreServices", "OpenGLES", "QuartzCore", "UIKit", "VideoToolbox", "IJKMediaFramework"
 
