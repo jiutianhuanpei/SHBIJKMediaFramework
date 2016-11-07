@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
    s.ios.vendored_frameworks = 'IJKMediaFramework.framework'
-   s.frameworks  = "Foundation", "UIKit", "MediaPlayer"
-   #s.libraries   = "sqlite3", "z"
+   s.frameworks  = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "Foundation", "UIKit", "MediaPlayer"
+   s.libraries   = "bz2", "z"
 
    s.requires_arc = true
    s.pod_target_xcconfig = { 'SWIFT_VERSION' => '2.3' }
