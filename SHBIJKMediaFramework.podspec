@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.3"
 
 
-  s.source       = { :git => "hhttps://github.com/jiutianhuanpei/SHBIJKMediaFramework.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/jiutianhuanpei/SHBIJKMediaFramework.git", :tag => s.version }
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
