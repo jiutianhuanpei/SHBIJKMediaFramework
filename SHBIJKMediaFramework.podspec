@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "SHBIJKMediaFramework"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "IJKMediaFramework 的框架"
 
   s.description  = <<-DESC
